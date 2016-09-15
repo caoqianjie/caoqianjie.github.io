@@ -84,12 +84,31 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="AngularJS的启动中有4个核心的方法angularjs整个是一个自执行函数，当js文件一加载完就会执行    
+
+bootStrap   创建injector、拉起内核和启动模块、调用 compile服务
+publishExternalAPI
+调用setupModuleLoader(window)函数建立模块机制
+注册内核provider(俩个最重要的provider:$scope和$roo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Angular启动机制源码解析">
+<meta property="og:url" content="http://yoursite.com/2016/09/15/angular的启动机制源码解析/index.html">
 <meta property="og:site_name" content="blog">
+<meta property="og:description" content="AngularJS的启动中有4个核心的方法angularjs整个是一个自执行函数，当js文件一加载完就会执行    
+
+bootStrap   创建injector、拉起内核和启动模块、调用 compile服务
+publishExternalAPI
+调用setupModuleLoader(window)函数建立模块机制
+注册内核provider(俩个最重要的provider:$scope和$roo">
+<meta property="og:updated_time" content="2016-09-15T06:27:40.300Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="blog">
+<meta name="twitter:title" content="Angular启动机制源码解析">
+<meta name="twitter:description" content="AngularJS的启动中有4个核心的方法angularjs整个是一个自执行函数，当js文件一加载完就会执行    
+
+bootStrap   创建injector、拉起内核和启动模块、调用 compile服务
+publishExternalAPI
+调用setupModuleLoader(window)函数建立模块机制
+注册内核provider(俩个最重要的provider:$scope和$roo">
 
 
 
@@ -110,9 +129,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/09/15/angular的启动机制源码解析/"/>
 
-  <title> blog </title>
+  <title> Angular启动机制源码解析 | blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="">
@@ -133,9 +152,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -212,9 +229,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -234,10 +251,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/09/15/angular的启动机制源码解析/" itemprop="url">
-                  Angular启动机制源码解析
-                </a>
+                Angular启动机制源码解析
               
             
           </h1>
@@ -277,9 +291,7 @@
       
 
       
-        
-          
-            <h1 id="AngularJS的启动中有4个核心的方法"><a href="#AngularJS的启动中有4个核心的方法" class="headerlink" title="AngularJS的启动中有4个核心的方法"></a>AngularJS的启动中有4个核心的方法</h1><p>angularjs整个是一个自执行函数，当js文件一加载完就会执行    </p>
+        <h1 id="AngularJS的启动中有4个核心的方法"><a href="#AngularJS的启动中有4个核心的方法" class="headerlink" title="AngularJS的启动中有4个核心的方法"></a>AngularJS的启动中有4个核心的方法</h1><p>angularjs整个是一个自执行函数，当js文件一加载完就会执行    </p>
 <ol>
 <li>bootStrap   创建injector、拉起内核和启动模块、调用 compile服务</li>
 <li>publishExternalAPI<ul>
@@ -339,16 +351,20 @@
 </li>
 </ol>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
@@ -356,290 +372,32 @@
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/09/13/ATOM编辑器快捷键大全/" rel="next" title="ATOM编辑器快捷键大全">
+                <i class="fa fa-chevron-left"></i> ATOM编辑器快捷键大全
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/2016/09/13/ATOM编辑器快捷键大全/" itemprop="url">
-                  ATOM编辑器快捷键大全
-                </a>
-              
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Veröffentlicht am</span>
-            <time itemprop="dateCreated" datetime="2016-09-13T20:11:10+08:00" content="2016-09-13">
-              2016-09-13
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h1 id="ATOM编辑器快捷键大全"><a href="#ATOM编辑器快捷键大全" class="headerlink" title="ATOM编辑器快捷键大全"></a>ATOM编辑器快捷键大全</h1><h2 id="文件切换"><a href="#文件切换" class="headerlink" title="文件切换"></a>文件切换</h2><p><code>ctrl-shift-s 保存所有打开的文件</code><br><code>cmd-shift-o 打开目录</code><br><code>cmd-\显示或隐藏目录树</code><br><code>ctrl-0焦点移到目录树</code><br><code>目录树下，使用a，m，delete来增加，修改和删除</code><br><code>cmd-t或cmd-p 查找文件</code><br><code>cmd-b 在打开的文件之间切换</code><br><code>cmd-shift-b 只搜索从上次git commit后修改或者新增的文件</code>  </p>
-<h2 id="导航"><a href="#导航" class="headerlink" title="导航"></a>导航</h2><ul>
-<li>（等价于上下左右）<br><code>ctrl-p 前一行</code><br><code>ctrl-n 后一行</code><br><code>ctrl-f 前一个字符</code><br><code>ctrl-b 后一个字符</code>  </li>
-</ul>
-<p><code>alt-B, alt-left 移动到单词开始</code><br><code>alt-F, alt-right 移动到单词末尾</code>  </p>
-<p><code>cmd-right, ctrl-E 移动到一行结束</code><br><code>cmd-left, ctrl-A 移动到一行开始</code>  </p>
-<p><code>cmd-up 移动到文件开始</code><br><code>cmd-down 移动到文件结束</code>  </p>
-<p><code>ctrl-g 移动到指定行 row:column 处</code><br><code>cmd-r 在方法之间跳转</code>  </p>
-<h2 id="目录树操作"><a href="#目录树操作" class="headerlink" title="目录树操作"></a>目录树操作</h2><p><code>cmd-\或者 cmd-k cmd-b 显示(隐藏)目录树
-ctrl-0 焦点切换到目录树(再按一次或者Esc退出目录树)</code><br><code>a 添加文件</code><br><code>d 将当前文件另存为(duplicate)</code><br><code>i 显示(隐藏)版本控制忽略的文件</code><br><code>alt-right 和 alt-left 展开(隐藏)所有目录</code><br><code>ctrl-al-] 和 ctrl-al-[ 同上</code><br><code>ctrl-[ 和 ctrl-] 展开(隐藏)当前目录</code><br><code>ctrl-f 和 ctrl-b 同上</code><br><code>cmd-k h 或者 cmd-k left 在左半视图中打开文件</code><br><code>cmd-k j或者cmd-k down在下半视图中打开文件</code><br><code>cmd-k k 或者cmd-k up 在上半视图中打开文件</code><br><code>cmd-k l 或者 cmd-k right 在右半视图中打开文件</code><br><code>ctrl-shift-C 复制当前文件绝对路径</code>  </p>
-<h2 id="书签"><a href="#书签" class="headerlink" title="书签"></a>书签</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">cmd-F2 在本行增加书签</div><div class="line">F2 跳到当前文件的下一条书签</div><div class="line">shift-F2 跳到当前文件的上一条书签</div><div class="line">ctrl-F2 列出当前工程所有书签</div></pre></td></tr></table></figure>
-<h2 id="选取"><a href="#选取" class="headerlink" title="选取"></a>选取</h2><p>   大部分和导航一致，只不过加上shift<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">ctrl-shift-P 选取至上一行</div><div class="line">ctrl-shift-N 选取至下一样</div><div class="line">ctrl-shift-B 选取至前一个字符</div><div class="line">ctrl-shift-F 选取至后一个字符</div><div class="line">alt-shift-B, alt-shift-left 选取至字符开始</div><div class="line">alt-shift-F, alt-shift-right 选取至字符结束</div><div class="line">ctrl-shift-E, cmd-shift-right 选取至本行结束</div><div class="line">ctrl-shift-A, cmd-shift-left 选取至本行开始</div><div class="line">cmd-shift-up 选取至文件开始</div><div class="line">cmd-shift-down 选取至文件结尾</div><div class="line">cmd-A 全选</div><div class="line">cmd-L 选取一行，继续按回选取下一行</div><div class="line">ctrl-shift-W 选取当前单词</div></pre></td></tr></table></figure></p>
-<h2 id="编辑和删除文本"><a href="#编辑和删除文本" class="headerlink" title="编辑和删除文本"></a>编辑和删除文本</h2><ul>
-<li><p>基本操作</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">ctrl-T 使光标前后字符交换</div><div class="line">cmd-J 将下一行与当前行合并</div><div class="line">ctrl-cmd-up, ctrl-cmd-down 使当前行向上或者向下移动</div><div class="line">cmd-shift-D 复制当前行到下一行</div><div class="line">cmd-K, cmd-U 使当前字符大写</div><div class="line">cmd-K, cmd-L 使当前字符小写</div></pre></td></tr></table></figure>
-</li>
-<li><p>删除和剪切</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">ctrl-shift-K 删除当前行</div><div class="line">cmd-backspace 删除到当前行开始</div><div class="line">cmd-fn-backspace 删除到当前行结束</div><div class="line">ctrl-K 剪切到当前行结束</div><div class="line">alt-backspace 或 alt-H 删除到当前单词开始</div><div class="line">alt-delete 或 alt-D 删除到当前单词结束</div></pre></td></tr></table></figure>
-</li>
-<li><p>多光标和多处选取</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">cmd-click 增加新光标</div><div class="line">cmd-shift-L 将多行选取改为多行光标</div><div class="line">ctrl-shift-up, ctrl-shift-down 增加上（下）一行光标</div><div class="line">cmd-D 选取文档中和当前单词相同的下一处</div><div class="line">ctrl-cmd-G 选取文档中所有和当前光标单词相同的位置</div></pre></td></tr></table></figure>
-</li>
-<li><p>括号跳转</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ctrl-m 相应括号之间，html tag之间等跳转</div><div class="line">ctrl-cmd-m 括号(tag)之间文本选取</div><div class="line">alt-cmd-. 关闭当前XML/HTML tag</div></pre></td></tr></table></figure>
-</li>
-<li><p>编码方式</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ctrl-shift-U 调出切换编码选项</div></pre></td></tr></table></figure>
-</li>
-<li><p>查找和替换</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cmd-F 在buffer中查找</div><div class="line">cmd-shift-f 在整个工程中查找</div></pre></td></tr></table></figure>
-</li>
-<li><p>代码片段</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alt-shift-S 查看当前可用代码片段</div></pre></td></tr></table></figure>
-</li>
-<li><p>在~/.atom目录下snippets.cson文件中存放了你定制的snippets</p>
-</li>
-<li><p>定制说明</p>
-</li>
-<li><p>自动补全</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ctrl-space 提示补全信息</div></pre></td></tr></table></figure>
-</li>
-<li><p>折叠</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">alt-cmd-[ 折叠</div><div class="line">alt-cmd-] 展开</div><div class="line">alt-cmd-shift-&#123; 折叠全部</div><div class="line">alt-cmd-shift-&#125; 展开全部</div><div class="line">cmd-k cmd-N 指定折叠层级 N为层级数</div></pre></td></tr></table></figure>
-</li>
-<li><p>文件语法高亮</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ctrl-shift-L 选择文本类型</div></pre></td></tr></table></figure>
-</li>
-<li><p>使用Atom进行写作</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ctrl-shift-M Markdown预览</div></pre></td></tr></table></figure>
-</li>
-<li><p>可用代码片段</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">b, legal, img, l, i, code, t, table</div></pre></td></tr></table></figure>
-</li>
-<li><p>git操作</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">cmd-alt-Z checkout HEAD 版本</div><div class="line">cmd-shift-B 弹出untracked 和 modified文件列表</div><div class="line">alt-g down alt-g up 在修改处跳转</div><div class="line">alt-G D 弹出diff列表</div><div class="line">alt-G O 在github上打开文件</div><div class="line">alt-G G 在github上打开项目地址</div><div class="line">alt-G B 在github上打开文件blame</div><div class="line">alt-G H 在github上打开文件history</div><div class="line">alt-G I 在github上打开issues</div><div class="line">alt-G R 在github打开分支比较</div><div class="line">alt-G C 拷贝当前文件在gihub上的网址</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="推荐一些好用的插件"><a href="#推荐一些好用的插件" class="headerlink" title="推荐一些好用的插件"></a>推荐一些好用的插件</h2><ul>
-<li><p>主题</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">atom-material-ui 好看到爆。</div><div class="line">atom-material-syntax</div></pre></td></tr></table></figure>
-</li>
-<li><p>美化</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">atom-beautify 一键代码美化。</div><div class="line">file-icons 给文件加上好看的图标。</div></pre></td></tr></table></figure>
-</li>
-<li><p>git</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">atomatigit 可视化git操作</div></pre></td></tr></table></figure>
-</li>
-<li><p>代码提示</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">emmet 这个不用介绍了吧。</div><div class="line">atom-ternjs js代码提示很强大，高度定制化。</div><div class="line">docblockr jsdoc 给js添加注释。</div><div class="line">autoclose-html 闭合html标签。</div><div class="line">color-picker 取色器（必备插件）</div><div class="line">pigments 颜色显示插件 （必装）</div><div class="line">terminal-panel 直接在atom里面写命令了</div><div class="line">svg-preview svg预览。</div></pre></td></tr></table></figure>
-<p>作者:fuantuan<br>GitHub:<a href="https://github.com/futantan/atom" target="_blank">https://github.com/futantan/atom</a></p>
-</li>
-</ul>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-      
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/09/13/乐观主义与危机意识/" itemprop="url">
-                  '乐观主义与危机意识'
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Veröffentlicht am</span>
-            <time itemprop="dateCreated" datetime="2016-09-13T19:32:39+08:00" content="2016-09-13">
-              2016-09-13
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="“if-you-study-well”"><a href="#“if-you-study-well”" class="headerlink" title="“if you study well”"></a>“if you study well”</h2><blockquote>
-<p>这不是原创,看到别人写的博客很受用,但是并不能转载，所以来copy一下。。<a href="http://sentsin.com/ifyoustudywell.html" target="_blank" rel="external">原文</a>作者叫做:贤心</p>
-</blockquote>
-<p>两位妈妈带着各自的孩子在公交站台等车，看着对面一位正在作业的清洁工，其中一位妈妈严肃地对她的儿子说：“if you do not study, you will end up like him.”（如果你不学习，你最终会像他一样）。另外一位妈妈则和蔼地对她的女儿说：“if you study well, you will be able to make a better world for him”（如果你好好学习，你就能为他创造一个更好的世界）  </p>
-<p>这是最近在程序员圈内热传的图，很多人认为这是在黑程序员。</p>
-<p>我当即给出的论断是：</p>
-<p>少壮不努力，老大写程序。<br>少壮若努力，程序变金币。</p>
-<p>好好好！抛开这个意义并不大的话题，作为一枚初为人父的我，更多思考的是，同样的场景下，两种截然不同的教育，究竟哪个才是最适宜孩子的呢？</p>
-<p>这显然是一场危机意识与乐观主义的对决。<br>常怀危机感的人会不断督促自己努力，为的是不让危机发生。<br>而乐观主义的人，看到的始终是事物积极的一面，他们不是去避免，而是去直面，让改变去发生。</p>
-<p>回想我们过去所经受的教育，有“忧劳可以兴国，逸豫可以亡身”，也有“我长大要成为一名什么什么，去帮助什么什么”。<br>我们的身边会参杂太多不同的声音，而被哪种意识所主导，直接影响着一个人的人生观和社会价值观。<br>如何去接纳，往往是取决于我们自己要成为什么样的人？是埋头苦干的，还是乐观向上的？</p>
-<p>再回到孩子，一旦在他们拥有了自己独立思考后，自然是会去做出选择的，而这个时候，如果他们出现叛逆，恰是因为他们为父母在过去施加给自己的教育感到失望。<br>这种情况，多半是为这些声音所主导：<br>“if you do not study…”、<br>“如果你贪图享乐，必定祸害终身”、<br>“如果你不好好努力，注定成为一个loser”。</p>
-<p>我忽然想到曾经待过的一家倒闭了的初创公司，和“让天下没有难做的生意”的阿里巴巴。</p>
-<p>一个是令人抑郁的蓝色，一个却是如向日葵般的亮丽。</p>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
@@ -647,6 +405,10 @@ ctrl-0 焦点切换到目录树(再按一次或者Esc退出目录树)</code><br>
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -666,8 +428,17 @@ ctrl-0 焦点切换到目录树(再按一次或者Esc退出目录树)</code><br>
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Übersicht
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -703,6 +474,17 @@ ctrl-0 焦点切换到目录树(再按一次或者Esc退出目录树)</code><br>
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#AngularJS的启动中有4个核心的方法"><span class="nav-number">1.</span> <span class="nav-text">AngularJS的启动中有4个核心的方法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#angularJs有俩种启动方式"><span class="nav-number">1.0.1.</span> <span class="nav-text">angularJs有俩种启动方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#自动启动模式"><span class="nav-number">1.0.2.</span> <span class="nav-text">自动启动模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#手动启动模式"><span class="nav-number">1.0.3.</span> <span class="nav-text">手动启动模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#一个页面里是可以有多个ng-app的"><span class="nav-number">1.0.4.</span> <span class="nav-text">一个页面里是可以有多个ng-app的</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#启动中的四种方法"><span class="nav-number">1.0.5.</span> <span class="nav-text">启动中的四种方法</span></a></li></ol></li></ol></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -799,6 +581,10 @@ ctrl-0 焦点切换到目录树(再按一次或者Esc退出目录树)</code><br>
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
