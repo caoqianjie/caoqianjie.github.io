@@ -84,12 +84,31 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="说说你对闭包的理解使用闭包主要是为了设计私有的方法和变量。闭包的优点是可以避免全局变量的污染，缺点是闭包会常驻内存，会增大内存使用量，使用不当很容易造成内存泄露。
+闭包有三个特性:
+
+1.函数嵌套函数2.函数内部可以引用外部的参数和变量3.参数和变量不会被垃圾回收机制回收
+
+请你谈谈Cookie的弊端cookie虽然在持久保存客户端数据提供了方便，分担了服务器存储的负担，但还是有很多局限性的。第一">
+<meta property="og:type" content="article">
+<meta property="og:title" content="前端面试题总结">
+<meta property="og:url" content="http://yoursite.com/2016/10/19/前端面试题1/index.html">
 <meta property="og:site_name" content="blog">
+<meta property="og:description" content="说说你对闭包的理解使用闭包主要是为了设计私有的方法和变量。闭包的优点是可以避免全局变量的污染，缺点是闭包会常驻内存，会增大内存使用量，使用不当很容易造成内存泄露。
+闭包有三个特性:
+
+1.函数嵌套函数2.函数内部可以引用外部的参数和变量3.参数和变量不会被垃圾回收机制回收
+
+请你谈谈Cookie的弊端cookie虽然在持久保存客户端数据提供了方便，分担了服务器存储的负担，但还是有很多局限性的。第一">
+<meta property="og:updated_time" content="2016-10-19T03:13:27.086Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="blog">
+<meta name="twitter:title" content="前端面试题总结">
+<meta name="twitter:description" content="说说你对闭包的理解使用闭包主要是为了设计私有的方法和变量。闭包的优点是可以避免全局变量的污染，缺点是闭包会常驻内存，会增大内存使用量，使用不当很容易造成内存泄露。
+闭包有三个特性:
+
+1.函数嵌套函数2.函数内部可以引用外部的参数和变量3.参数和变量不会被垃圾回收机制回收
+
+请你谈谈Cookie的弊端cookie虽然在持久保存客户端数据提供了方便，分担了服务器存储的负担，但还是有很多局限性的。第一">
 
 
 
@@ -110,9 +129,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/10/19/前端面试题1/"/>
 
-  <title> blog </title>
+  <title> 前端面试题总结 | blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="">
@@ -133,9 +152,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -212,9 +229,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -234,10 +251,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/10/19/前端面试题1/" itemprop="url">
-                  前端面试题总结
-                </a>
+                前端面试题总结
               
             
           </h1>
@@ -277,9 +291,7 @@
       
 
       
-        
-          
-            <h2 id="说说你对闭包的理解"><a href="#说说你对闭包的理解" class="headerlink" title="说说你对闭包的理解"></a>说说你对闭包的理解</h2><p>使用闭包主要是为了设计私有的方法和变量。闭包的优点是可以避免全局变量的污染，缺点是闭包会<br>常驻内存，会增大内存使用量，使用不当很容易造成内存泄露。</p>
+        <h2 id="说说你对闭包的理解"><a href="#说说你对闭包的理解" class="headerlink" title="说说你对闭包的理解"></a>说说你对闭包的理解</h2><p>使用闭包主要是为了设计私有的方法和变量。闭包的优点是可以避免全局变量的污染，缺点是闭包会<br>常驻内存，会增大内存使用量，使用不当很容易造成内存泄露。</p>
 <p>闭包有三个特性:</p>
 <blockquote>
 <p>1.函数嵌套函数<br>2.函数内部可以引用外部的参数和变量<br>3.参数和变量不会被垃圾回收机制回收</p>
@@ -1079,16 +1091,20 @@ Last-Modified: $now // RFC1123 format
 栈（数据结构）：一种先进后出的数据结构。
 </code></pre><h3 id="关于Http-2-0-你知道多少？"><a href="#关于Http-2-0-你知道多少？" class="headerlink" title="关于Http 2.0 你知道多少？"></a>关于Http 2.0 你知道多少？</h3><p><code>HTTP/2</code>引入了“服务端推（serverpush）”的概念，它允许服务端在客户端需要数据之前就主动地将数据发送到客户端缓存中，从而提高性能。<br><code>HTTP/2</code>提供更多的加密支持<br><code>HTTP/2</code>使用多路技术，允许多个消息在一个连接上同时交差。<br>它增加了头压缩（header compression），因此即使非常小的请求，其请求和响应的<code>header</code>都只会占用很小比例的带宽。</p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
@@ -1096,1019 +1112,32 @@ Last-Modified: $now // RFC1123 format
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/10/17/面试提问/" rel="next" title="面试提问">
+                <i class="fa fa-chevron-left"></i> 面试提问
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/2016/10/17/面试提问/" itemprop="url">
-                  面试提问
-                </a>
-              
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-10-17T20:51:57+08:00" content="2016-10-17">
-              2016-10-17
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h2 id="面试是一种双向选择：不仅是公司挑选你，也是你挑选公司。"><a href="#面试是一种双向选择：不仅是公司挑选你，也是你挑选公司。" class="headerlink" title="面试是一种双向选择：不仅是公司挑选你，也是你挑选公司。"></a>面试是一种双向选择：不仅是公司挑选你，也是你挑选公司。</h2><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ol>
-<li>面试之前，一定要做准备，多了解公司的情况。</li>
-<li>你提出的问题应该围绕“这份工作是否适合我”这个中心点，其他与应聘关系不大的问题，不宜多问。</li>
-<li>提问的时候，要自然放松，不要害羞，就把它当做普通的聊天。你要表现出对公司的真诚兴趣。</li>
-<li>提问要直接了当，不要绕圈子。提出问题以后，你要保持冷静，让面试官多说话。</li>
-<li>面试官回答的时候你可以做笔记，或者事先询问能不能做。笔记必须简短，你的大部分时间，要来全神贯注倾听面试官的回答，并与其有眼神交流。</li>
-<li>面试结束后一周内，最好打一个电话或者发一封邮件，了解公司对你的反馈意见。即使面试失败，你也不妨问一下原因，这会有助于你以后的面试。</li>
-</ol>
-<h3 id="典型问题"><a href="#典型问题" class="headerlink" title="典型问题"></a>典型问题</h3><ol>
-<li>你们为什么要招聘这个职位？<br>这个问题会使得面试官开始谈论当前的项目，或者谈论前一位离职人员。无论哪种情况，都会让你了解，一些与你最密切相关的公司情况。</li>
-<li>你们的新员工多吗？<br>这个问题起一个过渡作用，使得谈话导向公司内部的情况。但是，他本身也能说明一些问题。如果公司成立已经超过4年，有没有新项目，但是新员工却很多，这往往说明公司的文化不是很健康。  </li>
-<li>你们公司(团队)面临的最大的最大挑战是什么？<br>如果面试官开始谈论一些具体的技术问题，这很好；如果他的回答是项目时间紧迫，或者需要更多资金，那你就要小心一点了，公司管理上面可能有问题。</li>
-<li>什么新技术(编程语言)是你们未来希望采用的？<br>如果你申请的是技术职位，面试官恰巧又是技术负责人，那么这个问题将会特别合适。你会对公司的技术路线有所了解和准备，一旦入职，就能更好的适应公司上午的需要。</li>
-<li>在业务方面，有没有什么地方是你们不满意的，未来想要改进的？<br>很少有公司，会百分之百满意自身的现状，即使那些状况很良好的公司也是如此。这个问题可以让你对公司管理层的关注重点和担忧之处，有所了解。</li>
-<li>我申请的这个职位，对公司的业务有何影响？<br>这个问题会让你了解自己在公司的角色，以及你的岗位对公司是否重要。</li>
-</ol>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-      
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/10/01/正确安装node-sass模块/" itemprop="url">
-                  正确安装node-sass模块
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-10-01T00:00:53+08:00" content="2016-10-01">
-              2016-10-01
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="安装node-sass模块"><a href="#安装node-sass模块" class="headerlink" title="安装node-sass模块"></a>安装node-sass模块</h2><blockquote>
-<p>在使用webpack打包初始化项目的时候,因为main.js文件中引用了sass文件,build的时候提示缺少sass-loader模块,原始麻溜去install了,当时提示。。大概是sass-loader依赖于node-sass模块,没有理会,重新build的时候,有提示缺少node-sass模块,神烦~麻溜去 npm install node-asss –save-dev 开始还好,提示在github上下载一个win32-x64-48_binding.node文件的时候老是卡住,然后就报错了。安装了不下十遍,各种百度,终于解决了,赶快记下来。</p>
-</blockquote>
-<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><ul>
-<li>安装node-sass模块的时候,node_modules文件夹下会出现node-sass目录,一旦安装失败,就移除了</li>
-<li>在安装的过程中进入node-sass目录,找到package.json文件,打开找到’script’字段下的’install’字段对应的文件为scripts文件下的install.js,打开可以看到,其实要下载的就是github上编译好的二进制包win32-x64-48_binding.node,貌似是被墙了,文件平均2M用的还是request请求,会很慢。。所以会失败。知道他的原理就好。</li>
-<li>我们先去<a href="https://github.com/sass/node-sass/releases" target="_blank" rel="external">node-sass的github</a>上把文件下载下来。保存的本地,然后起一个服务,例如”<a href="http://localhost:8080/win32-x64-48_binding.node" target="_blank" rel="external">http://localhost:8080/win32-x64-48_binding.node</a>“, 保证能访问到这个文件就可以</li>
-<li>然后找到install.js中的代码<br><code>download(sass.getBinaryUrl, sass.getBinaryPath(), function(err)....</code><br>然后把<em>sass.getBinaryUrl</em>替换为我们的地址’<a href="http://localhost:8080/win32-x64-48_binding.node" target="_blank" rel="external">http://localhost:8080/win32-x64-48_binding.node</a>‘, 保存。<br>进入到node_modules/node-sass 执行<code>npm install</code> 发现很简单就安装完成了。。。。</li>
-<li>cover it<h2 id="关于本地起服务"><a href="#关于本地起服务" class="headerlink" title="关于本地起服务"></a>关于本地起服务</h2></li>
-<li>我用了express,主要是懒得写多一行代码</li>
-<li>新建文件 <code>npm install express</code>,新建server.js,把下载好的win32-x64-48_binding.node文件都放在同一个文件夹里</li>
-<li><p>server.js中写入</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);</div><div class="line"><span class="keyword">var</span> app = express();</div><div class="line">app.listen(<span class="number">8000</span>);</div><div class="line"><span class="built_in">console</span>.log(<span class="string">'port 8000 is listening'</span>);</div><div class="line">app.get(<span class="string">'/win32-x64-48_binding.node'</span>,<span class="function"><span class="keyword">function</span> (<span class="params">req,res</span>) </span>&#123;</div><div class="line">  res.sendFile(<span class="string">'win32-x64-48_binding.node'</span>,&#123;root:__dirname&#125;);</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
-</li>
-<li><p>cmd 下<code>node server.js</code></p>
-</li>
-<li>打开’localhost://8000/win32-x64-48_binding.node’发现下载成功,就可以了。</li>
-</ul>
-<h3 id="查找资料的时候看了好多别人的经验"><a href="#查找资料的时候看了好多别人的经验" class="headerlink" title="查找资料的时候看了好多别人的经验"></a>查找资料的时候看了好多别人的经验</h3><p><a href="http://www.th7.cn/web/js/201511/135415.shtml" target="_blank" rel="external">http://www.th7.cn/web/js/201511/135415.shtml</a><br><a href="http://cnodejs.org/topic/5637549fd426a1404cbd0614" target="_blank" rel="external">http://cnodejs.org/topic/5637549fd426a1404cbd0614</a><br><a href="https://segmentfault.com/a/1190000005921721" target="_blank" rel="external">https://segmentfault.com/a/1190000005921721</a>   </p>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/09/27/flex-box布局/" itemprop="url">
-                  flex_box布局
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-09-27T01:07:00+08:00" content="2016-09-27">
-              2016-09-27
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="flex-box弹性盒子布局"><a href="#flex-box弹性盒子布局" class="headerlink" title="flex-box弹性盒子布局"></a>flex-box弹性盒子布局</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><blockquote>
-<p>有关于多栏布局和flexbox的基础知识除了上面的英文教程之外还可以参阅下面的中文教程：</p>
-<ul>
-<li><a href="http://www.w3cplus.com/content/css3-multi-columns-span" target="_blank" rel="external">CSS3 Multi-columns 之跨列</a></li>
-<li><a href="http://www.w3cplus.com/css3-multi-columns-column-gap-and-column-rule" target="_blank" rel="external">CSS3 Multi-columns 之column-gap column-rule</a></li>
-<li><a href="http://www.w3cplus.com/content/css3-multi-columns-count-and-width" target="_blank" rel="external">CSS3 Multi-columns 之列数和列宽</a></li>
-<li><a href="http://www.w3cplus.com/content/css3-multi-columns-span" target="_blank" rel="external">CSS3 Multi-columns 之跨列</a></li>
-<li><a href="http://www.w3cplus.com/blog/666.html" target="_blank" rel="external">深入了解 Flexbox 伸缩盒模型</a></li>
-<li><a href="http://www.w3.org/html/ig/zh/css-flex-1/" target="_blank" rel="external">CSS 伸缩盒布局模组</a></li>
-</ul>
-</blockquote>
-<h3 id="Flexbox通常能让我们更好的操作他的子元素布局，例如："><a href="#Flexbox通常能让我们更好的操作他的子元素布局，例如：" class="headerlink" title="Flexbox通常能让我们更好的操作他的子元素布局，例如："></a>Flexbox通常能让我们更好的操作他的子元素布局，例如：</h3><ul>
-<li>如果元素容器没有足够的空间，我们无需计算每个元素的宽度，就可以设置他们在同一行；</li>
-<li>可以快速让他们布局在一列；</li>
-<li>可以方便让他们对齐容器的左、右、中间等；</li>
-<li>无需修改结构就可以改变他们的显示顺序；</li>
-<li>如果元素容器设置百分比和视窗大小改变，不用提心未指定元素的确切宽度而破坏布局，因为容器中的每个子元素都可以自动分配容器的宽度或高度的比例。</li>
-</ul>
-<p>注: 这篇文章使用的是Flexbox最后语法，目前支持浏览器：Opera Mobile12.1+、Opera12.5+、Firefox18+（partial）和chrome。Chrome需要添加浏览器前缀“-webkit-”,Opera支持标准语法，不用添加任何前缀。Firefox有部分支持，也需要添加前缀“-moz-”，同时需要设置一个标志（到firefox浏览器地址栏中输入：about:config，搜索“flexbox”，找到之后双击“layout.css.flexbox.enabled”，设置他的“value”值为“true”）。注意，其他浏览器除了opera自2009年支持flexbox以来，都使用旧的语法规则，真的不应该使用这些过时的语法。一定要记住阅读和使用2012年以前有关于flexbox的文章和代码时，flexbox都使用的老语法。Chris Coyie有一篇文章《“Old” Flexbox and “New” Flexbox》，这篇文章能更好的告诉你如何阅读一个过时的文章。</p>
-<h3 id="flexbox的术语"><a href="#flexbox的术语" class="headerlink" title="flexbox的术语"></a>flexbox的术语</h3><ul>
-<li>伸缩容器：一个设有“display:flex”或“display:inline-flex”的元素</li>
-<li>伸缩项目：伸缩容器的子元素</li>
-<li>主轴、主轴方向：用户代理沿着一个伸缩容器的主轴配置伸缩项目，主轴是主轴方向的延伸。</li>
-<li>主轴起点、主轴终点：伸缩项目的配置从容器的主轴起点边开始，往主轴终点边结束。</li>
-<li>主轴长度、主轴长度属性：伸缩项目的在主轴方向的宽度或高度就是项目的主轴长度，伸缩项目的主轴长度属性是width或height属性，由哪一个对着主轴方向决定。</li>
-<li>侧轴、侧轴方向：与主轴垂直的轴称作侧轴，是侧轴方向的延伸。</li>
-<li>侧轴起点、侧轴终点：填满项目的伸缩行的配置从容器的侧轴起点边开始，往侧轴终点边结束。</li>
-<li>侧轴长度、侧轴长度属性：伸缩项目的在侧轴方向的宽度或高度就是项目的侧轴长度，伸缩项目的侧轴长度属性是「width」或「height」属性，由哪一个对着侧轴方向决定。<br> 下图是一个row伸缩容器中各种方向与大小术语的示意图：<br> <img src="http://cdn.w3cplus.com/cdn/farfuture/MRJHWfia5YnHEiKlVNVBcj9Yc0iqc42YhMtpVaJBqKE/mtime:1421035112/sites/default/files/styles/print_image/public/blogs/2013/flexbox-basics-3.jpg" alt="图片"><h3 id="开始使用Flexbox"><a href="#开始使用Flexbox" class="headerlink" title="开始使用Flexbox"></a>开始使用Flexbox</h3></li>
-</ul>
-<ol>
-<li><p>大多数的Flexbox属性都应用于父容器的元素上。因为Flexbox，你可以指定你想要制定的一个容器，使用一个特殊的值显示属性，就像这样：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">footer&#123;</div><div class="line">  display:flex;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-</li>
-<li><p>接下来你可以使用“flex-row”属性来指定子元素布局是在一行还是一列显示。如果你愿意，你可以定义关键词“wrap”，来指定内容容器在新的一行（当父元素容器太小，flexbox元素想在同一行显示）。在我们的例子中，我在footer中设置了“row wrap”</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">footer &#123;</div><div class="line">  display: flex;</div><div class="line">  flex-flow: row wrap;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<ul>
-<li>有关于flex-flow<br> flex-flow是用来伸缩行换行，flex-flow属性是同时设定“flex-direction(伸缩流的方向)”和“flex-wrap（伸缩行换行）”属性的缩写，两个属性决定了伸缩容器的主轴与侧轴。此属性主要适用于伸缩容器。在这篇文章的例子中，主要是“footer”元素。</li>
-<li>有关于flex-direction<br> flex-direction属性可以用来设定伸缩容器的主轴的方向，这也决定了用户代理配置伸缩项目的方向。主要适用于伸缩容器，主要包括以下几个值：<ul>
-<li>row:flex-direction的默认值，表示伸缩容器的主轴与当前书写模式的行内轴（文字布局的主要主向）。主轴起点与主轴终点方向分别等同于当前书写模式的始与结方向。</li>
-<li>row-reverse：表示的是除了主轴起点与主轴终点方向交换以外同row属性值的作用。</li>
-<li>column：表示的是伸缩容器的主轴与当前书写模式的块轴（块布局的主要方向）同向。主轴起点与主轴终点方向分别等同于当前书写模式的前与后方向。简单的可以理解为列布局。</li>
-<li>column-reverse：表示的是除了主轴起点与主轴终点方向交换以外同“column”的属性值作用。</li>
-</ul>
-</li>
-<li>关于flex-wrap<br> flex-wrap属性主要用来控制伸缩容器是单行还是多行，也决定了侧轴方向一新的一行的堆放方向。主要适用于伸缩容器，主要包括以下几个值：<ul>
-<li>nowrap:flex-wrap的默认值，表示的是伸缩容器为单行。侧轴起点方向等同于当前书写模式的起点或前/头在侧轴的那一边，而侧轴终点方向是侧轴起点的相反方向。</li>
-<li>wrap：表示的是伸缩容器为多行。侧轴起点方向等同于当前书写模式的起眯或前/头在侧轴的那一边，而侧轴终点方向是侧轴起点的相反方向。</li>
-<li>wrap-reverse：除了侧轴起点与侧轴终点方向交换以外同wrap所起作用相同。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/09/24/微博摘录/" itemprop="url">
-                  微博摘录 ‘从来就没有感同身受’
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-09-24T01:06:24+08:00" content="2016-09-24">
-              2016-09-24
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <blockquote>
-<p>微博上发现的一片文章，感觉写的挺好的，于是就想摘下来，顺便练习一下打字。</p>
-</blockquote>
-<p>以下是正文</p>
-<p>本来不想跟热点的，但是这件事我想说几句，因为曾经我也得过轻微抑郁，才明白这世上整的没有感同身受这件事，然后， 关于SM意外去世也并不比抑郁症自杀可耻，就算真的是SM又怎样，留点口德把。  </p>
-<p>不可避免的来到这个世上，还好能够选择自己离开的方式。   </p>
-<p>这个世界上有一群最孤独的人，有人称呼他们为边缘型人格障碍，有人称呼他们为<strong>抑郁症</strong>。    </p>
-<p>但任何做出这些评价的人，也仅仅只是了解这个称呼而已。只有这群孤独的人自己，才会体会到什么叫做真正的绝望。   </p>
-<p>你们永远不会明白，一个抑郁症患者人前欢笑的背后，是关上门后的一种无声酷刑。    </p>
-<p><em>每时每刻，每分每秒。有一种说法是，孤独的抑郁者，他们的黑夜足够漫长。</em>   </p>
-<p>之前天津爆炸事件的时候，乔任梁在微博上说了句飞蛾扑火。结果很多人去骂他诅咒他。<br>只有少数人明白，他仅仅只是希望消防官兵们别再去了，当时的火那么大，能用血肉之躯去填吗？<br>也只有少数人知道，他给消防队捐了一百万，比起键盘侠的吃瓜群众们，孰高孰低，一目了然。   </p>
-<p>网络里和生活里有太多的人性丑恶，一次一次毫无底线，无时无刻遮蔽了光芒。  </p>
-<p><em>在让人绝望的人群里去感受绝望，就是永无止境的黑夜。</em>   </p>
-<p>抑郁到骨子里的人，最终都会选择自己结束这段人生旅程。如同当初第一个发现细菌的那位科学家，他难以忍受目光所及、身体所触到的每一寸地方，都覆满了令人作呕的细菌。最后选择离开这个世界。  </p>
-<p>丑陋的东西总是惊人的相似，在消毒液和无菌概念普及的现在，人类逐渐的在生活中的微观细节里建立了安全感。</p>
-<p>但凡任何能够激起内心暴戾情绪的事情出现，网络上那些张牙舞爪的言论和充满揣度讥讽的嘴脸，总会在第一时间最大限度的推波助澜，唯恐自己哗众取宠的行径没有得到关注，没能在一场单方面的言论屠杀里干净杀绝。</p>
-<p>多年前张国荣逝世的时候，曾有很多人说，这是一个同性恋的懦夫结局。   </p>
-<p>可笑的是，无数人将其作为谈资尽情解读消费。    </p>
-<p>终归没有人愿意用一点点善意，尝试去理解一个抑郁了二十年的人心里，那份不可言诉的苦楚，和深深的孤独。    </p>
-<p>当人们去探讨一个又一个他人的生死旦夕祸福时，无数的阴谋总会在猜忌声里肆意生长、散播挑逗情绪的毒种，就像罪恶之都里的夜幕，永远充满狰狞。<br>很多时候我看着不少吃瓜群众们笃定的某某态度和某某观点，也会很诧异，辩证、推理、分析、共情等诸多能力那是应有尽有。<br>既然这么有能耐了，或者说，那么聪明。为何不能多留一点点宽容和善意，偏要抢着去做施虐者。<br>是的，我们办法阻止悲剧的发生和罪恶的蔓延，就像当一个人选择结束自己生命时，那种和这个世界一刀俩断的决绝之心无法左右。<br>但至少作为旁观者的你，可以不同情，可以不悲悯，出于对逝者为大理解，不是一种更好的诠释和表达吗？   </p>
-<p>太宰治曾在《人间失格》里写下，<strong>生而为人，我很抱歉</strong> 带着一种无法救人，亦无法自救的愧疚情绪，贯穿了他的整部作品和他安静的一生。    </p>
-<p>善良永远比聪明更重要，对他人多一分宽容和理解，也是对自己的救赎。   </p>
-<p>不仅是对乔任梁，还有那许许多多在边缘世界坚持的人。   </p>
-<p>我们能做的，其实还有很多。</p>
-<p>作者：樂樂，被甲方折磨到快性冷淡的94年非典型天蝎射基师，三观比三围正。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/09/23/毕业前夕/" itemprop="url">
-                  闲记
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-09-23T19:30:10+08:00" content="2016-09-23">
-              2016-09-23
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="马上要面临毕业了"><a href="#马上要面临毕业了" class="headerlink" title="马上要面临毕业了"></a>马上要面临毕业了</h2><p>今天是9月23号,nodejs开课的第三周,昨天结束了<em>angularjs</em>的学习,最后回顾了一下三周来angularjs学了啥,发现忘得差不多了~。快临到毕业已经与同学按捺不住出去找工作了,从发回来的面试题看,发现好多都不知道。。。很多名词还都没有听过。心里不免有点恐慌,晚上把同学发过来的面试题总结了一下,要开始背题了啊。。</p><br><p>要好好想想接下来的俩周怎么度过了,可能会决定今后的日子了,希望能有好的结果~~接下来要陆续总结一些<strong>面试题</strong>了。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/09/15/angular的启动机制源码解析/" itemprop="url">
-                  Angular启动机制源码解析
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-09-15T13:49:10+08:00" content="2016-09-15">
-              2016-09-15
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="AngularJS的启动中有4个核心的方法"><a href="#AngularJS的启动中有4个核心的方法" class="headerlink" title="AngularJS的启动中有4个核心的方法"></a>AngularJS的启动中有4个核心的方法</h1><p>angularjs整个是一个自执行函数，当js文件一加载完就会执行    </p>
-<ol>
-<li>bootStrap   创建injector、拉起内核和启动模块、调用 compile服务</li>
-<li>publishExternalAPI<ul>
-<li>调用setupModuleLoader(window)函数建立模块机制</li>
-<li>注册内核provider(俩个最重要的provider:$scope和$rootScope)</li>
-</ul>
-</li>
-<li>angularInit   防止多次初始化ng-app</li>
-<li>bindJQuery   尝试绑定JQuery(判断是否引入JQuery)<h2 id="angularJs有俩种启动方式"><a href="#angularJs有俩种启动方式" class="headerlink" title="angularJs有俩种启动方式"></a>angularJs有俩种启动方式</h2><h3 id="自动启动模式"><a href="#自动启动模式" class="headerlink" title="自动启动模式"></a>自动启动模式</h3>angularjs在自己加载完成后会自己去查找ng-app,找到了之后，从我们指定的模块开始启动<h3 id="手动启动模式"><a href="#手动启动模式" class="headerlink" title="手动启动模式"></a>手动启动模式</h3>没有指定ng-app,我们需要自己手动去启动，但要等到我们的文档加载完成以后，不然会报错。手动启动方法如下: <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">angular.element(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">  angular.bootStrap(<span class="built_in">document</span>,[<span class="string">'appModule'</span>])</div><div class="line">  &#125;);</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>这里我们用了JQuery中的ready的方式,等待document加载完成,然后手动调用angular.bootStrap方法,从document(比html大)开始启动,名字叫做’appModule’.</p>
-<h3 id="一个页面里是可以有多个ng-app的"><a href="#一个页面里是可以有多个ng-app的" class="headerlink" title="一个页面里是可以有多个ng-app的"></a>一个页面里是可以有多个ng-app的</h3><p>可以有多个<em>ng-app</em>,但是<strong>多个ng-app不能嵌套</strong>,不然路由处理起来很麻烦。<br>但是当我们一个页面中有多个ng-app的时候,angular并不会全部给我们自动启动,它只会把找到的第一个ng-app给启动,剩下的需要我们自己手动调用angular.bootStrap方法来启动.<br>    <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">angular.element(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">  angular.bootStrap(element,[<span class="string">'appModule2'</span>],configFconfigFn)</div><div class="line">  &#125;);</div></pre></td></tr></table></figure></p>
-<p>这样就可以手动调动另外的ng-app了,但是我们一般不会在一个页面中调用多个ng-app。而且，如果当angular已经自动给我们启动，我们再调用bootstrap方法，angular会给我们抛出一个<em>异常</em>,但是并不会宕掉。<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Uncaught Error: [ng:btstrpd] App already bootstrapped with this element &apos;&amp;lt;div id=&quot;app1&quot; ng-app=&quot;appModule1&quot; ng-controller=&quot;myCtrl1&quot; class=&quot;ng-scope ng-binding&quot;&amp;gt;&apos;</div></pre></td></tr></table></figure></p>
-<p>所以如果自动启动了，就不要手动再起启动了。   </p>
-<h2 id="启动中的四种方法"><a href="#启动中的四种方法" class="headerlink" title="启动中的四种方法"></a>启动中的四种方法</h2><h3 id="bindJQuery"><a href="#bindJQuery" class="headerlink" title="bindJQuery"></a>bindJQuery</h3><pre><code>当调用bindJQuery方法的时候,angular会先去取window.JQuery
-
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"> jQuery = isUndefined(jqName) ? <span class="built_in">window</span>.jQuery : !jqName ? <span class="literal">undefined</span> : <span class="built_in">window</span>[jqName];</div><div class="line"><span class="string">``</span><span class="string">`  </span></div><div class="line">判断window.JQuery是否存在,如果存在就说明我们已经导入了外部JQuery,就会走进一个分支,把JQuery赋值给jqLite.   </div><div class="line">`<span class="string">``</span>javascript</div><div class="line"><span class="keyword">if</span> (jQuery &amp;&amp; jQuery.fn.on) &#123;</div><div class="line">  jqLite = jQuery;</div><div class="line">  extend(jQuery.fn, &#123;</div><div class="line">    scope: JQLitePrototype.scope,</div><div class="line">    isolateScope: JQLitePrototype.isolateScope,</div><div class="line">    controller: JQLitePrototype.controller,</div><div class="line">    injector: JQLitePrototype.injector,</div><div class="line">    inheritedData: JQLitePrototype.inheritedData</div><div class="line">  &#125;);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-</code></pre><p>   否则进入另一个分支<br>    <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"> <span class="keyword">else</span> &#123;</div><div class="line">  jqLite = JQLite;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>   接下来angular会把他内部的全部API发布到angular这个全局对象上   </p>
-<h3 id="publishExternalAPI-angular"><a href="#publishExternalAPI-angular" class="headerlink" title="publishExternalAPI (angular)"></a>publishExternalAPI (angular)</h3><pre><code>1. 工具函数拷贝到全局对象angular上
-   调用extend方法 `extend(angular,{})`  
-2. 调用 setupModuleLoader方法创建 模块定义和加载工具(挂在全局对象window.angular上)
-    重要的步骤,给angular构建了模块加载器  `angularModule = setupModuleLoader(window);`
-    这么实现的是: 有多层闭包嵌套
-    利用一个拷贝函数    
-     <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"> <span class="function"><span class="keyword">function</span> <span class="title">ensure</span>(<span class="params">obj, name, factory</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> obj[name] || (obj[name] = factory());</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-
-    将&apos;module&apos;拷贝到angular上，这样我们就可以调用angular.module方法了
-      会在闭包里建一个缓存   `var modules = {};`
-      当我们这样使用时:
-    <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">          <span class="keyword">var</span> app2 = angular.module(<span class="string">'appModule2'</span>,[]);</div><div class="line">app2.controller(<span class="string">'myCtrl2'</span>,[<span class="string">'$scope'</span>,<span class="function"><span class="keyword">function</span> (<span class="params">$scope</span>) </span>&#123;</div><div class="line">    $scope.html = <span class="string">'吃饭睡觉打豆豆2'</span>;</div><div class="line">&#125;]);</div><div class="line">   <span class="string">``</span><span class="string">`    </span></div><div class="line">  'appModule2'是被当做一个key来使用缓存到闭包里的 modules=&#123;&#125;中。</div><div class="line">    紧接着再次返回一个闭包</div><div class="line">    `<span class="keyword">return</span> <span class="function"><span class="keyword">function</span> <span class="title">module</span>(<span class="params">name, requires, configFn</span>) </span>&#123;....<span class="string">`</span></div><div class="line">      这个module就是调用时我们真实的 angular.moduule 有三个参数</div><div class="line">        @param name 模块的名称</div><div class="line">        @param requires 模块的依赖的其他模块</div><div class="line">        @param configFn 是一个配置函数      </div><div class="line">    里边会再次返回一个闭包 `ensure(modules, name, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;....<span class="string">`</span></div><div class="line">      会把我们创建的模块名字'appModule2'拷贝到 modules这个对象上,包括对应的方法</div><div class="line">          如果没有写依赖[]会抛出错误</div><div class="line">            `<span class="string">``</span>javascript</div><div class="line">            <span class="keyword">if</span> (!requires) &#123;</div><div class="line">              <span class="keyword">throw</span> $injectorMinErr(<span class="string">'nomod'</span>, <span class="string">"Module '&#123;0&#125;' is not available! You either misspelled "</span> +</div><div class="line">                 <span class="string">"the module name or forgot to load it. If registering a module ensure that you "</span> +</div><div class="line">                 <span class="string">"specify the dependencies as the second argument."</span>, name);</div><div class="line">            &#125;</div></pre></td></tr></table></figure>
-
-         内部会在模块这个实例上放上一大堆的工具函数
-         `**provider** factory service value constant fillter **controller** **directive** decorator`等
-         所以会有一切都是从模块开始，只有创建模块了，所有的一切才能调用，这样我们的模块app上机会有一系列的方法了
-3. 构建内置模块ng
-    setupModuleLoader完成之后,angular会首先把这些ng打头的模块注册进来 `angularModule(&apos;ng&apos;, [&apos;ngLocale&apos;], [&apos;$provide&apos;,....`
-      包括angular的一些内置的指令和 angular内置的 provider(包括$http $interval $parse $rootScope $filter 等等)
-4. 创建ng内置的directive和provider
-5. 俩个重要的provider: $parse和$rootScope
-</code></pre><h3 id="angularInit-做一些初始化的操作-防止多次初始化ng-app"><a href="#angularInit-做一些初始化的操作-防止多次初始化ng-app" class="headerlink" title="angularInit  做一些初始化的操作,防止多次初始化ng-app"></a>angularInit  做一些初始化的操作,防止多次初始化ng-app</h3><pre><code>1. 首先他会去找有没有ng-app指令,有的话会自动去调用bootstrap方法,自己把angularJs应用给启动起来在,如果没有就需要我们自己手动去掉用angular.bootstrap,否则就不会启动应用
-  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span> (appElement) &#123;</div><div class="line">  config.strictDi = getNgAttribute(appElement, <span class="string">"strict-di"</span>) !== <span class="literal">null</span>;</div><div class="line">  bootstrap(appElement, <span class="built_in">module</span> ? [<span class="built_in">module</span>] : [], config);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-</code></pre><h3 id="bootstrap-方法"><a href="#bootstrap-方法" class="headerlink" title="bootstrap 方法"></a>bootstrap 方法</h3><pre><code>1. 首先会判断应用是否已经启动了,`if(element.injector())` 已经启动了那么在此启动就会抛出异常    
-  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">throw</span> ngMinErr(</div><div class="line">    <span class="string">'btstrpd'</span>,</div><div class="line">    <span class="string">"App already bootstrapped with this element '&#123;0&#125;'"</span>,</div><div class="line">    tag.replace(<span class="regexp">/&lt;/</span>,<span class="string">'&amp;lt;'</span>).replace(<span class="regexp">/&gt;/</span>,<span class="string">'&amp;gt;'</span>));</div></pre></td></tr></table></figure>
-
-2. 核心部分     
-    <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line">modules = modules || [];</div><div class="line">modules.unshift([<span class="string">'$provide'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">$provide</span>) </span>&#123;</div><div class="line">  $provide.value(<span class="string">'$rootElement'</span>, element);</div><div class="line">&#125;]);</div><div class="line"></div><div class="line"><span class="keyword">if</span> (config.debugInfoEnabled) &#123;</div><div class="line">  <span class="comment">// Pushing so that this overrides `debugInfoEnabled` setting defined in user's `modules`.</span></div><div class="line">  modules.push([<span class="string">'$compileProvider'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">$compileProvider</span>) </span>&#123;</div><div class="line">    $compileProvider.debugInfoEnabled(<span class="literal">true</span>);</div><div class="line">  &#125;]);</div><div class="line">&#125;</div><div class="line"></div><div class="line">modules.unshift(<span class="string">'ng'</span>);</div><div class="line"><span class="keyword">var</span> injector = createInjector(modules, config.strictDi);</div><div class="line">injector.invoke([<span class="string">'$rootScope'</span>, <span class="string">'$rootElement'</span>, <span class="string">'$compile'</span>, <span class="string">'$injector'</span>,</div><div class="line">   <span class="function"><span class="keyword">function</span> <span class="title">bootstrapApply</span>(<span class="params">scope, element, compile, injector</span>) </span>&#123;</div><div class="line">    scope.$apply(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">      element.data(<span class="string">'$injector'</span>, injector);</div><div class="line">      compile(element)(scope);</div><div class="line">    &#125;);</div><div class="line">  &#125;]</div><div class="line">);</div></pre></td></tr></table></figure>
-
-    在modules中插入 &apos;$provider&apos;和&apos;ng&apos;    
-    创建注射器 injector并返回injector,此注射器就是根注射器,一个app只有一个injector   
-    拉起内核和启动模块、调用compile服务    
-    到此整个angular就算启动成功了     
-</code></pre><blockquote>
-<p>这篇文章的布局真的是丑。。我已经尽力了,markD中嵌套之后就搞不清楚了,害得慢慢学啊,吾将上下而求索。</p>
-</blockquote>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/09/13/ATOM编辑器快捷键大全/" itemprop="url">
-                  ATOM编辑器快捷键大全
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-09-13T20:11:10+08:00" content="2016-09-13">
-              2016-09-13
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="ATOM编辑器快捷键大全"><a href="#ATOM编辑器快捷键大全" class="headerlink" title="ATOM编辑器快捷键大全"></a>ATOM编辑器快捷键大全</h1><h2 id="文件切换"><a href="#文件切换" class="headerlink" title="文件切换"></a>文件切换</h2><p><code>ctrl-shift-s 保存所有打开的文件</code><br><code>cmd-shift-o 打开目录</code><br><code>cmd-\显示或隐藏目录树</code><br><code>ctrl-0焦点移到目录树</code><br><code>目录树下，使用a，m，delete来增加，修改和删除</code><br><code>cmd-t或cmd-p 查找文件</code><br><code>cmd-b 在打开的文件之间切换</code><br><code>cmd-shift-b 只搜索从上次git commit后修改或者新增的文件</code>  </p>
-<h2 id="导航"><a href="#导航" class="headerlink" title="导航"></a>导航</h2><ul>
-<li>（等价于上下左右）<br><code>ctrl-p 前一行</code><br><code>ctrl-n 后一行</code><br><code>ctrl-f 前一个字符</code><br><code>ctrl-b 后一个字符</code>  </li>
-</ul>
-<p><code>alt-B, alt-left 移动到单词开始</code><br><code>alt-F, alt-right 移动到单词末尾</code>  </p>
-<p><code>cmd-right, ctrl-E 移动到一行结束</code><br><code>cmd-left, ctrl-A 移动到一行开始</code>  </p>
-<p><code>cmd-up 移动到文件开始</code><br><code>cmd-down 移动到文件结束</code>  </p>
-<p><code>ctrl-g 移动到指定行 row:column 处</code><br><code>cmd-r 在方法之间跳转</code>  </p>
-<h2 id="目录树操作"><a href="#目录树操作" class="headerlink" title="目录树操作"></a>目录树操作</h2><p><code>cmd-\或者 cmd-k cmd-b 显示(隐藏)目录树
-ctrl-0 焦点切换到目录树(再按一次或者Esc退出目录树)</code><br><code>a 添加文件</code><br><code>d 将当前文件另存为(duplicate)</code><br><code>i 显示(隐藏)版本控制忽略的文件</code><br><code>alt-right 和 alt-left 展开(隐藏)所有目录</code><br><code>ctrl-al-] 和 ctrl-al-[ 同上</code><br><code>ctrl-[ 和 ctrl-] 展开(隐藏)当前目录</code><br><code>ctrl-f 和 ctrl-b 同上</code><br><code>cmd-k h 或者 cmd-k left 在左半视图中打开文件</code><br><code>cmd-k j或者cmd-k down在下半视图中打开文件</code><br><code>cmd-k k 或者cmd-k up 在上半视图中打开文件</code><br><code>cmd-k l 或者 cmd-k right 在右半视图中打开文件</code><br><code>ctrl-shift-C 复制当前文件绝对路径</code>  </p>
-<h2 id="书签"><a href="#书签" class="headerlink" title="书签"></a>书签</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">cmd-F2 在本行增加书签</div><div class="line">F2 跳到当前文件的下一条书签</div><div class="line">shift-F2 跳到当前文件的上一条书签</div><div class="line">ctrl-F2 列出当前工程所有书签</div></pre></td></tr></table></figure>
-<h2 id="选取"><a href="#选取" class="headerlink" title="选取"></a>选取</h2><p>   大部分和导航一致，只不过加上shift<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">ctrl-shift-P 选取至上一行</div><div class="line">ctrl-shift-N 选取至下一样</div><div class="line">ctrl-shift-B 选取至前一个字符</div><div class="line">ctrl-shift-F 选取至后一个字符</div><div class="line">alt-shift-B, alt-shift-left 选取至字符开始</div><div class="line">alt-shift-F, alt-shift-right 选取至字符结束</div><div class="line">ctrl-shift-E, cmd-shift-right 选取至本行结束</div><div class="line">ctrl-shift-A, cmd-shift-left 选取至本行开始</div><div class="line">cmd-shift-up 选取至文件开始</div><div class="line">cmd-shift-down 选取至文件结尾</div><div class="line">cmd-A 全选</div><div class="line">cmd-L 选取一行，继续按回选取下一行</div><div class="line">ctrl-shift-W 选取当前单词</div></pre></td></tr></table></figure></p>
-<h2 id="编辑和删除文本"><a href="#编辑和删除文本" class="headerlink" title="编辑和删除文本"></a>编辑和删除文本</h2><ul>
-<li><p>基本操作</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">ctrl-T 使光标前后字符交换</div><div class="line">cmd-J 将下一行与当前行合并</div><div class="line">ctrl-cmd-up, ctrl-cmd-down 使当前行向上或者向下移动</div><div class="line">cmd-shift-D 复制当前行到下一行</div><div class="line">cmd-K, cmd-U 使当前字符大写</div><div class="line">cmd-K, cmd-L 使当前字符小写</div></pre></td></tr></table></figure>
-</li>
-<li><p>删除和剪切</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">ctrl-shift-K 删除当前行</div><div class="line">cmd-backspace 删除到当前行开始</div><div class="line">cmd-fn-backspace 删除到当前行结束</div><div class="line">ctrl-K 剪切到当前行结束</div><div class="line">alt-backspace 或 alt-H 删除到当前单词开始</div><div class="line">alt-delete 或 alt-D 删除到当前单词结束</div></pre></td></tr></table></figure>
-</li>
-<li><p>多光标和多处选取</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">cmd-click 增加新光标</div><div class="line">cmd-shift-L 将多行选取改为多行光标</div><div class="line">ctrl-shift-up, ctrl-shift-down 增加上（下）一行光标</div><div class="line">cmd-D 选取文档中和当前单词相同的下一处</div><div class="line">ctrl-cmd-G 选取文档中所有和当前光标单词相同的位置</div></pre></td></tr></table></figure>
-</li>
-<li><p>括号跳转</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ctrl-m 相应括号之间，html tag之间等跳转</div><div class="line">ctrl-cmd-m 括号(tag)之间文本选取</div><div class="line">alt-cmd-. 关闭当前XML/HTML tag</div></pre></td></tr></table></figure>
-</li>
-<li><p>编码方式</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ctrl-shift-U 调出切换编码选项</div></pre></td></tr></table></figure>
-</li>
-<li><p>查找和替换</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cmd-F 在buffer中查找</div><div class="line">cmd-shift-f 在整个工程中查找</div></pre></td></tr></table></figure>
-</li>
-<li><p>代码片段</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alt-shift-S 查看当前可用代码片段</div></pre></td></tr></table></figure>
-</li>
-<li><p>在~/.atom目录下snippets.cson文件中存放了你定制的snippets</p>
-</li>
-<li><p>定制说明</p>
-</li>
-<li><p>自动补全</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ctrl-space 提示补全信息</div></pre></td></tr></table></figure>
-</li>
-<li><p>折叠</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">alt-cmd-[ 折叠</div><div class="line">alt-cmd-] 展开</div><div class="line">alt-cmd-shift-&#123; 折叠全部</div><div class="line">alt-cmd-shift-&#125; 展开全部</div><div class="line">cmd-k cmd-N 指定折叠层级 N为层级数</div></pre></td></tr></table></figure>
-</li>
-<li><p>文件语法高亮</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ctrl-shift-L 选择文本类型</div></pre></td></tr></table></figure>
-</li>
-<li><p>使用Atom进行写作</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ctrl-shift-M Markdown预览</div></pre></td></tr></table></figure>
-</li>
-<li><p>可用代码片段</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">b, legal, img, l, i, code, t, table</div></pre></td></tr></table></figure>
-</li>
-<li><p>git操作</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">cmd-alt-Z checkout HEAD 版本</div><div class="line">cmd-shift-B 弹出untracked 和 modified文件列表</div><div class="line">alt-g down alt-g up 在修改处跳转</div><div class="line">alt-G D 弹出diff列表</div><div class="line">alt-G O 在github上打开文件</div><div class="line">alt-G G 在github上打开项目地址</div><div class="line">alt-G B 在github上打开文件blame</div><div class="line">alt-G H 在github上打开文件history</div><div class="line">alt-G I 在github上打开issues</div><div class="line">alt-G R 在github打开分支比较</div><div class="line">alt-G C 拷贝当前文件在gihub上的网址</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="推荐一些好用的插件"><a href="#推荐一些好用的插件" class="headerlink" title="推荐一些好用的插件"></a>推荐一些好用的插件</h2><ul>
-<li><p>主题</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">atom-material-ui 好看到爆。</div><div class="line">atom-material-syntax</div></pre></td></tr></table></figure>
-</li>
-<li><p>美化</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">atom-beautify 一键代码美化。</div><div class="line">file-icons 给文件加上好看的图标。</div></pre></td></tr></table></figure>
-</li>
-<li><p>git</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">atomatigit 可视化git操作</div></pre></td></tr></table></figure>
-</li>
-<li><p>代码提示</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">emmet 这个不用介绍了吧。</div><div class="line">atom-ternjs js代码提示很强大，高度定制化。</div><div class="line">docblockr jsdoc 给js添加注释。</div><div class="line">autoclose-html 闭合html标签。</div><div class="line">color-picker 取色器（必备插件）</div><div class="line">pigments 颜色显示插件 （必装）</div><div class="line">terminal-panel 直接在atom里面写命令了</div><div class="line">svg-preview svg预览。</div></pre></td></tr></table></figure>
-<p>作者:fuantuan<br>GitHub:<a href="https://github.com/futantan/atom" target="_blank">https://github.com/futantan/atom</a></p>
-</li>
-</ul>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/09/13/乐观主义与危机意识/" itemprop="url">
-                  '乐观主义与危机意识'
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-09-13T19:32:39+08:00" content="2016-09-13">
-              2016-09-13
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="“if-you-study-well”"><a href="#“if-you-study-well”" class="headerlink" title="“if you study well”"></a>“if you study well”</h2><blockquote>
-<p>这不是原创,看到别人写的博客很受用,但是并不能转载，所以来copy一下。。<a href="http://sentsin.com/ifyoustudywell.html" target="_blank" rel="external">原文</a>作者叫做:贤心</p>
-</blockquote>
-<p>两位妈妈带着各自的孩子在公交站台等车，看着对面一位正在作业的清洁工，其中一位妈妈严肃地对她的儿子说：“if you do not study, you will end up like him.”（如果你不学习，你最终会像他一样）。另外一位妈妈则和蔼地对她的女儿说：“if you study well, you will be able to make a better world for him”（如果你好好学习，你就能为他创造一个更好的世界）  </p>
-<p>这是最近在程序员圈内热传的图，很多人认为这是在黑程序员。</p>
-<p>我当即给出的论断是：</p>
-<p>少壮不努力，老大写程序。<br>少壮若努力，程序变金币。</p>
-<p>好好好！抛开这个意义并不大的话题，作为一枚初为人父的我，更多思考的是，同样的场景下，两种截然不同的教育，究竟哪个才是最适宜孩子的呢？</p>
-<p>这显然是一场危机意识与乐观主义的对决。<br>常怀危机感的人会不断督促自己努力，为的是不让危机发生。<br>而乐观主义的人，看到的始终是事物积极的一面，他们不是去避免，而是去直面，让改变去发生。</p>
-<p>回想我们过去所经受的教育，有“忧劳可以兴国，逸豫可以亡身”，也有“我长大要成为一名什么什么，去帮助什么什么”。<br>我们的身边会参杂太多不同的声音，而被哪种意识所主导，直接影响着一个人的人生观和社会价值观。<br>如何去接纳，往往是取决于我们自己要成为什么样的人？是埋头苦干的，还是乐观向上的？</p>
-<p>再回到孩子，一旦在他们拥有了自己独立思考后，自然是会去做出选择的，而这个时候，如果他们出现叛逆，恰是因为他们为父母在过去施加给自己的教育感到失望。<br>这种情况，多半是为这些声音所主导：<br>“if you do not study…”、<br>“如果你贪图享乐，必定祸害终身”、<br>“如果你不好好努力，注定成为一个loser”。</p>
-<p>我忽然想到曾经待过的一家倒闭了的初创公司，和“让天下没有难做的生意”的阿里巴巴。</p>
-<p>一个是令人抑郁的蓝色，一个却是如向日葵般的亮丽。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
@@ -2116,6 +1145,10 @@ ctrl-0 焦点切换到目录树(再按一次或者Esc退出目录树)</code><br>
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -2135,8 +1168,17 @@ ctrl-0 焦点切换到目录树(再按一次或者Esc退出目录树)</code><br>
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -2172,6 +1214,17 @@ ctrl-0 焦点切换到目录树(再按一次或者Esc退出目录树)</code><br>
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#说说你对闭包的理解"><span class="nav-number">1.</span> <span class="nav-text">说说你对闭包的理解</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请你谈谈Cookie的弊端"><span class="nav-number">2.</span> <span class="nav-text">请你谈谈Cookie的弊端</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#优点：极高的扩展性和可用性"><span class="nav-number">2.1.</span> <span class="nav-text">优点：极高的扩展性和可用性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#缺点："><span class="nav-number">2.2.</span> <span class="nav-text">缺点：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#浏览器本地存储"><span class="nav-number">3.</span> <span class="nav-text">浏览器本地存储</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#web-storage和cookie的区别"><span class="nav-number">3.1.</span> <span class="nav-text">web storage和cookie的区别</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#cookie-和session-的区别："><span class="nav-number">3.2.</span> <span class="nav-text">cookie 和session 的区别：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CSS-相关问题"><span class="nav-number">4.</span> <span class="nav-text">CSS 相关问题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#display-none和visibility-hidden的区别？"><span class="nav-number">4.1.</span> <span class="nav-text">display:none和visibility:hidden的区别？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CSS中-link-和-import-的区别是？"><span class="nav-number">4.2.</span> <span class="nav-text">CSS中 link 和@import 的区别是？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#position-absolute和float属性的异同"><span class="nav-number">4.3.</span> <span class="nav-text">position:absolute和float属性的异同</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#介绍一下box-sizing属性？"><span class="nav-number">4.4.</span> <span class="nav-text">介绍一下box-sizing属性？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CSS-选择符有哪些？哪些属性可以继承？优先级算法如何计算？-CSS3新增伪类有那些？"><span class="nav-number">4.5.</span> <span class="nav-text">CSS 选择符有哪些？哪些属性可以继承？优先级算法如何计算？ CSS3新增伪类有那些？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#position的值，-relative和absolute分别是相对于谁进行定位的？"><span class="nav-number">4.6.</span> <span class="nav-text">position的值， relative和absolute分别是相对于谁进行定位的？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CSS3有哪些新特性？"><span class="nav-number">4.7.</span> <span class="nav-text">CSS3有哪些新特性？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#XML和JSON的区别？"><span class="nav-number">4.8.</span> <span class="nav-text">XML和JSON的区别？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#对BFC规范的理解？"><span class="nav-number">4.9.</span> <span class="nav-text">对BFC规范的理解？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#解释下-CSS-sprites，以及你要如何在页面或网站中使用它。"><span class="nav-number">4.10.</span> <span class="nav-text">解释下 CSS sprites，以及你要如何在页面或网站中使用它。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#html部分"><span class="nav-number">5.</span> <span class="nav-text">html部分</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Doctype作用-严格模式与混杂模式如何区分？它们有何意义"><span class="nav-number">5.1.</span> <span class="nav-text">Doctype作用? 严格模式与混杂模式如何区分？它们有何意义?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#你知道多少种Doctype文档类型？"><span class="nav-number">5.2.</span> <span class="nav-text">你知道多少种Doctype文档类型？</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#HTML与XHTML——二者有什么区别"><span class="nav-number">6.</span> <span class="nav-text">HTML与XHTML——二者有什么区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#常见兼容性问题？"><span class="nav-number">7.</span> <span class="nav-text">常见兼容性问题？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#解释下浮动和它的工作原理？清除浮动的技巧"><span class="nav-number">7.1.</span> <span class="nav-text">解释下浮动和它的工作原理？清除浮动的技巧</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#浮动元素引起的问题和解决办法？"><span class="nav-number">7.2.</span> <span class="nav-text">浮动元素引起的问题和解决办法？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#IE-8以下版本的浏览器中的盒模型有什么不同"><span class="nav-number">7.3.</span> <span class="nav-text">IE 8以下版本的浏览器中的盒模型有什么不同</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#DOM操作——怎样添加、移除、移动、复制、创建和查找节点。"><span class="nav-number">7.4.</span> <span class="nav-text">DOM操作——怎样添加、移除、移动、复制、创建和查找节点。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#html5有哪些新特性、移除了那些元素？如何处理HTML5新标签的浏览器兼容问题？如何区分-HTML-和-HTML5？"><span class="nav-number">7.5.</span> <span class="nav-text">html5有哪些新特性、移除了那些元素？如何处理HTML5新标签的浏览器兼容问题？如何区分 HTML 和 HTML5？</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iframe的优缺点？"><span class="nav-number">8.</span> <span class="nav-text">iframe的优缺点？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#如何实现浏览器内多个标签页之间的通信"><span class="nav-number">9.</span> <span class="nav-text">如何实现浏览器内多个标签页之间的通信?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#线程与进程的区别"><span class="nav-number">10.</span> <span class="nav-text">线程与进程的区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#你如何对网站的文件和资源进行优化？"><span class="nav-number">11.</span> <span class="nav-text">你如何对网站的文件和资源进行优化？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请说出三种减少页面加载时间的方法。"><span class="nav-number">12.</span> <span class="nav-text">请说出三种减少页面加载时间的方法。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#你都使用哪些工具来测试代码的性能？"><span class="nav-number">13.</span> <span class="nav-text">你都使用哪些工具来测试代码的性能？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是-FOUC（无样式内容闪烁）？你如何来避免-FOUC？"><span class="nav-number">14.</span> <span class="nav-text">什么是 FOUC（无样式内容闪烁）？你如何来避免 FOUC？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#null和undefined的区别？"><span class="nav-number">15.</span> <span class="nav-text">null和undefined的区别？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#new操作符具体干了什么呢"><span class="nav-number">16.</span> <span class="nav-text">new操作符具体干了什么呢?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#js延迟加载的方式有哪些？"><span class="nav-number">17.</span> <span class="nav-text">js延迟加载的方式有哪些？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#如何解决跨域问题"><span class="nav-number">18.</span> <span class="nav-text">如何解决跨域问题?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#documen-write和-innerHTML的区别"><span class="nav-number">19.</span> <span class="nav-text">documen.write和 innerHTML的区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#call-和-apply-的区别和作用？"><span class="nav-number">20.</span> <span class="nav-text">.call() 和 .apply() 的区别和作用？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#哪些操作会造成内存泄漏？"><span class="nav-number">21.</span> <span class="nav-text">哪些操作会造成内存泄漏？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaScript中的作用域与变量声明提升？"><span class="nav-number">22.</span> <span class="nav-text">JavaScript中的作用域与变量声明提升？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#如何判断当前脚本运行在浏览器还是node环境中？"><span class="nav-number">23.</span> <span class="nav-text">如何判断当前脚本运行在浏览器还是node环境中？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其他问题？"><span class="nav-number">24.</span> <span class="nav-text">其他问题？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#你遇到过比较难的技术问题是？你是如何解决的？"><span class="nav-number">24.1.</span> <span class="nav-text">你遇到过比较难的技术问题是？你是如何解决的？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#列举IE-与其他浏览器不一样的特性？"><span class="nav-number">24.2.</span> <span class="nav-text">列举IE 与其他浏览器不一样的特性？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#什么叫优雅降级和渐进增强？"><span class="nav-number">24.3.</span> <span class="nav-text">什么叫优雅降级和渐进增强？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#WEB应用从服务器主动推送Data到客户端有那些方式？"><span class="nav-number">24.4.</span> <span class="nav-text">WEB应用从服务器主动推送Data到客户端有那些方式？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#对前端界面工程师这个职位是怎么样理解的？它的前景会怎么样？"><span class="nav-number">24.5.</span> <span class="nav-text">对前端界面工程师这个职位是怎么样理解的？它的前景会怎么样？</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#你有哪些性能优化的方法？"><span class="nav-number">25.</span> <span class="nav-text">你有哪些性能优化的方法？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一个页面从输入-URL-到页面加载显示完成，这个过程中都发生了什么？"><span class="nav-number">26.</span> <span class="nav-text">一个页面从输入 URL 到页面加载显示完成，这个过程中都发生了什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#平时如何管理你的项目？"><span class="nav-number">27.</span> <span class="nav-text">平时如何管理你的项目？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#说说最近最流行的一些东西吧？常去哪些网站？"><span class="nav-number">28.</span> <span class="nav-text">说说最近最流行的一些东西吧？常去哪些网站？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#javascript对象的几种创建方式"><span class="nav-number">29.</span> <span class="nav-text">javascript对象的几种创建方式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#javascript继承的6种方法"><span class="nav-number">30.</span> <span class="nav-text">javascript继承的6种方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ajax过程"><span class="nav-number">31.</span> <span class="nav-text">ajax过程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#异步加载和延迟加载"><span class="nav-number">32.</span> <span class="nav-text">异步加载和延迟加载</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#前端安全问题？"><span class="nav-number">33.</span> <span class="nav-text">前端安全问题？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sql注入原理"><span class="nav-number">33.1.</span> <span class="nav-text">sql注入原理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#XSS原理及防范"><span class="nav-number">33.2.</span> <span class="nav-text">XSS原理及防范</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#XSS防范方法"><span class="nav-number">33.3.</span> <span class="nav-text">XSS防范方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#XSS与CSRF有什么区别吗？"><span class="nav-number">33.4.</span> <span class="nav-text">XSS与CSRF有什么区别吗？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CSRF的防御"><span class="nav-number">33.5.</span> <span class="nav-text">CSRF的防御</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ie各版本和chrome可以并行下载多少个资源"><span class="nav-number">34.</span> <span class="nav-text">ie各版本和chrome可以并行下载多少个资源</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#javascript里面的继承怎么实现，如何避免原型链上面的对象共享"><span class="nav-number">35.</span> <span class="nav-text">javascript里面的继承怎么实现，如何避免原型链上面的对象共享</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#grunt，-YUI-compressor-和-google-clojure用来进行代码压缩的用法。"><span class="nav-number">36.</span> <span class="nav-text">grunt， YUI compressor 和 google clojure用来进行代码压缩的用法。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Flash、Ajax各自的优缺点，在使用中如何取舍？"><span class="nav-number">37.</span> <span class="nav-text">Flash、Ajax各自的优缺点，在使用中如何取舍？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请解释一下-JavaScript-的同源策略。"><span class="nav-number">38.</span> <span class="nav-text">请解释一下 JavaScript 的同源策略。</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#为什么要有同源限制？"><span class="nav-number">38.1.</span> <span class="nav-text">为什么要有同源限制？</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是-“use-strict”-使用它的好处和坏处分别是什么？"><span class="nav-number">39.</span> <span class="nav-text">什么是 “use strict”; ? 使用它的好处和坏处分别是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#GET和POST的区别，何时使用POST？"><span class="nav-number">40.</span> <span class="nav-text">GET和POST的区别，何时使用POST？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#哪些地方会出现css阻塞，哪些地方会出现js阻塞？"><span class="nav-number">41.</span> <span class="nav-text">哪些地方会出现css阻塞，哪些地方会出现js阻塞？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#闭包相关问题？"><span class="nav-number">42.</span> <span class="nav-text">闭包相关问题？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#js事件处理程序问题？"><span class="nav-number">43.</span> <span class="nav-text">js事件处理程序问题？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#eval是做什么的？"><span class="nav-number">44.</span> <span class="nav-text">eval是做什么的？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaScript原型，原型链-有什么特点？"><span class="nav-number">45.</span> <span class="nav-text">JavaScript原型，原型链 ? 有什么特点？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#事件、IE与火狐的事件机制有什么区别？-如何阻止冒泡？"><span class="nav-number">46.</span> <span class="nav-text">事件、IE与火狐的事件机制有什么区别？ 如何阻止冒泡？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ajax-是什么-ajax-的交互模型-同步和异步的区别-如何解决跨域问题"><span class="nav-number">47.</span> <span class="nav-text">ajax 是什么?ajax 的交互模型?同步和异步的区别?如何解决跨域问题?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#js对象的深度克隆"><span class="nav-number">48.</span> <span class="nav-text">js对象的深度克隆</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#AMD和CMD-规范的区别？"><span class="nav-number">49.</span> <span class="nav-text">AMD和CMD 规范的区别？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#网站重构的理解？"><span class="nav-number">50.</span> <span class="nav-text">网站重构的理解？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#如何获取UA？"><span class="nav-number">51.</span> <span class="nav-text">如何获取UA？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#js数组去重"><span class="nav-number">52.</span> <span class="nav-text">js数组去重</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#HTTP状态码"><span class="nav-number">53.</span> <span class="nav-text">HTTP状态码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#js操作获取和设置cookie"><span class="nav-number">54.</span> <span class="nav-text">js操作获取和设置cookie</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#说说TCP传输的三次握手策略"><span class="nav-number">54.1.</span> <span class="nav-text">说说TCP传输的三次握手策略</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#说说你对Promise的理解"><span class="nav-number">54.2.</span> <span class="nav-text">说说你对Promise的理解</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Javascript垃圾回收方法"><span class="nav-number">55.</span> <span class="nav-text">Javascript垃圾回收方法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#标记清除（mark-and-sweep）"><span class="nav-number">55.1.</span> <span class="nav-text">标记清除（mark and sweep）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用计数-reference-counting"><span class="nav-number">55.2.</span> <span class="nav-text">引用计数(reference counting)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#谈谈性能优化问题"><span class="nav-number">55.3.</span> <span class="nav-text">谈谈性能优化问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#移动端性能优化"><span class="nav-number">55.4.</span> <span class="nav-text">移动端性能优化</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是Etag？"><span class="nav-number">56.</span> <span class="nav-text">什么是Etag？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Expires和Cache-Control"><span class="nav-number">56.1.</span> <span class="nav-text">Expires和Cache-Control</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#栈和队列的区别"><span class="nav-number">56.2.</span> <span class="nav-text">栈和队列的区别?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#栈和堆的区别？"><span class="nav-number">56.3.</span> <span class="nav-text">栈和堆的区别？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#关于Http-2-0-你知道多少？"><span class="nav-number">56.4.</span> <span class="nav-text">关于Http 2.0 你知道多少？</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -2268,6 +1321,10 @@ ctrl-0 焦点切换到目录树(再按一次或者Esc退出目录树)</code><br>
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
